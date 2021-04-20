@@ -1,4 +1,4 @@
-
+creating new repository
 Go to the top right side of the screen and click on (+) sign to create a new repo.
 Click on new repo and then type the name of the repo and other details then press on create repo.
 Copy the address of your repo.
@@ -15,7 +15,6 @@ Run (git push origin master)
 
 Creating new repository on the command line
 cd ..
-/
 Mkdir devops
 git init
 git add
