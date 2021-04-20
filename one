@@ -1,0 +1,27 @@
+com
+Go to the top right side of the screen and click on (+) sign to create a new repo.
+Click on new repo and then type the name of the repo and other details then press on create repo.
+Copy the address of your repo.
+Search gitbash and open 
+Run cd ~
+Run cd Desktop/
+Run git clone (paste the address of your repo)
+
+Uploading a project which you want to upload on your desktop.
+**Run (git status)
+Run (git add.)
+Run (git commit -m “write some message”)
+Run (git push origin master)
+
+Creating new repository on the command line
+cd ..
+/
+Mkdir devops
+git init
+git add
+git status
+git commit -m “hi”
+git remote add origin 
+git checkout -b main 
+git push -u origin main 
+Create a new:
