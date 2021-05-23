@@ -1,19 +1,19 @@
 Pipeline{
   agent any
    stages{
-     stage("maven test"){
+      stage("maven test"){
          steps{
-             Sh "maven test"
+             sh "mvn test"
         }
      }
-stage("maven compile"){
+      stage("maven compile"){
          steps{
-             Sh "maven compile"
+             sh "mvn compile"
        }
      }
-stage("maven deploy"){
+      stage("maven deploy"){
          steps{
-             Sh "maven deploy"
+             sh "mvn deploy"
        }
     }
    }
